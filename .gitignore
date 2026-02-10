@@ -1,0 +1,70 @@
+# Compiled Object Files
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# Build Directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled Static and Dynamic Libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Test Output Files
+output.txt
+*.output
+# But keep template input/output files
+!*-input.txt
+!*-output.txt
+!sample-input.txt
+!sample-output.txt
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Python Cache (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
